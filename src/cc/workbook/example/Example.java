@@ -10,11 +10,14 @@ public class Example {
 	 * Ö÷Èë¿Ú
 	 */
 	public static void main(String[] args) {
+		/*
 		Exercises exercises = new HundredBucks();
 		System.out.println(exercises.solution());
 
 		exercises = new ChickenRabbitCages();
 		System.out.println(exercises.solution());
+		*/
+		new MultiTable().print();
 	}
 
 }
