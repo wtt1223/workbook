@@ -27,6 +27,6 @@ public abstract class ExercisesImpl implements Exercises {
 	 * ´ð°¸£¨´ð£º¡­¡­£©
 	 */
 	public String solution() {
-		return String.format("%d\n´ð£º%s\n\n", getTitle(), answer());
+		return String.format("%s\n´ð£º%s\n", getTitle(), answer());
 	}
 }
